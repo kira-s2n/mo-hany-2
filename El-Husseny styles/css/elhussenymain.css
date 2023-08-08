@@ -3525,6 +3525,13 @@ blockquote {
     position: relative;
 }
 
+.bg-pro {
+	background-position: bottom; 
+    background-size: 120%; 
+    background-repeat: no-repeat; 
+    background-image: linear-gradient(rgb(0, 0, 0, 0.93), rgb(0, 0, 0, 0.87)), url(https://img.freepik.com/premium-photo/architecture-exterior-facade-design-concept-3d-perspective-white-wireframe-rendering_50179-5412.jpg?w=1380);
+}
+
 .section.light-beige {
     background-color: transparent;
 }
@@ -8140,7 +8147,7 @@ blockquote {
         padding: 18px 37px;
         font-size: 15px;
         margin-top: 130px;
-        margin-left: 73px;
+        margin-left: 66px;
     }
 
     .button-main2 {
@@ -9263,6 +9270,14 @@ blockquote {
         display: none; 
         font-size: 20px; 
         font-family: 'Dancing Script', cursive;
+    }
+
+
+    .bg-pro {
+        background-position: bottom; 
+        background-size: 250%; 
+        background-repeat: no-repeat; 
+        background-image: linear-gradient(rgb(0, 0, 0, 0.93), rgb(0, 0, 0, 0.87)), url(https://img.freepik.com/premium-photo/architecture-exterior-facade-design-concept-3d-perspective-white-wireframe-rendering_50179-5412.jpg?w=1380);
     }
 
 }
