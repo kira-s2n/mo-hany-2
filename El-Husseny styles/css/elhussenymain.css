@@ -6218,6 +6218,14 @@ blockquote {
     font-family: Italiana, sans-serif;
 }
 
+
+.designsf {
+    display: inline-block; 
+    font-size: 13px; 
+    font-family: 'Dancing Script', cursive;
+}
+
+
 .cart-item-image {
     width: 60px;
     height: 60px;
@@ -7887,7 +7895,8 @@ blockquote {
 
     .footer-bottom {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        justify-content: center;
     }
 
     .field-label {
@@ -8156,6 +8165,10 @@ blockquote {
 
     .footer-block {
         flex-direction: column;
+        grid-column-gap: 7px;
+        grid-row-gap: 7px;
+        justify-content: center;
+        align-items: center;
     }
 
     .circle-wrapp {
@@ -8218,6 +8231,7 @@ blockquote {
     .heading-footer {
         flex-direction: column;
         font-size: 27px;
+        text-align: center;
     }
 
     .collection-list.center {
@@ -8415,6 +8429,7 @@ blockquote {
 
     .get-in-touch-link {
         top: 20px;
+        left: 20%;
     }
 
     .footer-content-holder {
@@ -8436,7 +8451,7 @@ blockquote {
     }
 
     .footer-links-holder {
-        grid-row-gap: 2.5em;
+        grid-row-gap: 1.5em;
     }
 
     .nav-main-link,
@@ -8509,7 +8524,9 @@ blockquote {
     }
 
     .footer-text {
-        font-size: 25px;
+        font-size: 20px;
+        text-align: center;
+        flex-direction: row;
     }
 
     .get-in-touch-text {
@@ -8570,8 +8587,7 @@ blockquote {
     }
 
     .footer-links-horizontal-holder {
-        grid-row-gap: 5px;
-        flex-direction: column;
+       display: none;
     }
 
     .text-divider {
@@ -9229,6 +9245,24 @@ blockquote {
         background-repeat: no-repeat;
         background-position: 80% 100%;
         background-size: 180% 80%;
+    }
+
+    .footer-logo-link {
+        width: 100%;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        display: flex;
+    }
+
+
+    .designsf {
+        display: none; 
+        font-size: 20px; 
+        font-family: 'Dancing Script', cursive;
     }
 
 }
